@@ -9,10 +9,13 @@
     <body>
         <h1>WEB UI - NUMBERS AI</h1>
         <form id="userForm">
-            <label for="input">Gib etwas ein:</label>
-            <input type="text" id="input" name="userInput" placeholder="Prediction to: ">
-            <button type="submit" id="submit">send</button>
+            <label for="input">Gib eine Zahl ein:</label>
+            <input type="text" id="input" name="userInput" placeholder="z.B. 11">
+            <button type="submit" id="submit">Predict</button>
         </form>
+        <p></p>
+        <h3>Model Output: <span id="modelOutput">–</span></h3>
+        <!-- id="modelOutput" ist neu – script.js schreibt den Output hier rein -->
         <script src="script.js"></script>
     </body>
 </html>
